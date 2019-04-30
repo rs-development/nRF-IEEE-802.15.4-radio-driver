@@ -1650,7 +1650,7 @@ static void continuous_carrier_init(bool disabled_was_triggered)
         return;
     }
 
-    //Set Tx Power
+    // Set Tx Power
     nrf_radio_txpower_set(nrf_802154_pib_tx_power_get());
 
     // Set FEM
